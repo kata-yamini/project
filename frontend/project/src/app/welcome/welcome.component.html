@@ -1,0 +1,29 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Quiz Application</h1>
+    <p class="col-md-8 fs-4">Quiz Contains 10 Question MARK:10</p>
+    <h4>Instructions:</h4>
+    <ol>
+        <li>
+            Attempt All questions.
+        </li>
+        <li>
+            Each question carries 10 marks.
+        </li>
+        <li>
+            Negative Marking is allowed.
+        </li>
+        <li>
+            Webcam is allowed.
+        </li>
+        <li>
+            UnMute Your Self within Hole Process.
+        </li>
+    </ol>
+    <div class="name col-md-4 my-3">
+        <label for="">Enter name*</label>
+        <input #name type="text" class="form-control">
+
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start Quiz!!</button>
+    <img src="assets/img/pens.jpg" alt="" width="1400" height="150" class="d-inline-block align-text-top">
+</div>
